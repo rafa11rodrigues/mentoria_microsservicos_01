@@ -1,0 +1,7 @@
+FROM node
+
+COPY ./db.json /var/www/
+
+RUN npm install -g json-server
+ENTRYPOINT [ "json-server", "--watch", "/var/www/db.json", "--port", "3001" ]
+EXPOSE 3001

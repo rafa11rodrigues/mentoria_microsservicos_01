@@ -1,0 +1,24 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "TV 40''",
+      "valor": 1200
+    },
+    {
+      "id": 2,
+      "nome": "iPhone 8",
+      "valor": 3500
+    },
+    {
+      "id": 3,
+      "nome": "Dell G7",
+      "valor": 6500
+    },
+    {
+      "nome": "Galaxy S10",
+      "valor": 3200,
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+version: "3"
+
+networks:
+  my-network:
+    driver: bridge
+
+services:
+  cadastro-produto:
+    build: ./cadastro-produto
+    container_name: cadastro-produto
+    ports:
+      - "3000:3000"
+    networks:
+      - my-network
+
+  cadastro-cliente:
+    build: ./cadastro-cliente
+    container_name: cadastro-cliente
+    ports:
+      - "3001:3001"
+    networks:
+      - my-network
