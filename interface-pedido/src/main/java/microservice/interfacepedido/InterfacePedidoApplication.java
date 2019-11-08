@@ -1,0 +1,13 @@
+package microservice.interfacepedido;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class InterfacePedidoApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(InterfacePedidoApplication.class, args);
+	}
+
+}
